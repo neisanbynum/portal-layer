@@ -17,8 +17,9 @@ const PortalLayer = ({ children, id = 'portal-root' }) => {
             root.style.position = 'fixed';
             root.style.top = '0';
             root.style.left = '0';
-            root.style.width = '100vw';
-            root.style.height = '100vh';
+            root.style.display = 'flex';
+            root.style.width = 'clamp(100vw, 100vw, 100vw)';
+            root.style.height = 'clamp(100vh, 100vh, 100vh)';
             root.style.pointerEvents = 'none';
             root.style.overflow = 'hidden';
             document.body.appendChild(root);

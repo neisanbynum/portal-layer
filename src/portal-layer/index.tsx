@@ -1,10 +1,7 @@
 import React from "react"
 import { PortalLayerContext } from "./context"
+import { PortalLayerProperties } from "./types"
 
-export interface PortalLayerProperties {
-	children?: React.ReactNode
-	id?: string
-}
 
 const PortalLayer: React.FC<PortalLayerProperties> = ({ children, id = 'portal-root' }) => {
 	const currID = React.useRef<string>('')

@@ -1,7 +1,4 @@
 import React from "react";
-export interface PortalLayerProperties {
-    children?: React.ReactNode;
-    id?: string;
-}
+import { PortalLayerProperties } from "./types";
 declare const PortalLayer: React.FC<PortalLayerProperties>;
 export default PortalLayer;
