@@ -1,12 +1,9 @@
 {
   "name": "portal-layer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A layer for all neisanbynum components that require portals to function.",
   "main": "./dist/index.js",
-  "module": "./dist/index.js",  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
-  },
+  "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
@@ -22,16 +19,20 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/neisanbynum/portal-layer/issues"
   },
   "homepage": "https://github.com/neisanbynum/portal-layer#readme",
+  "scripts": {
+    "build": "tsc"
+  },
   "devDependencies": {
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
     "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
   }
 }
