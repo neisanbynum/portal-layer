@@ -1,6 +1,6 @@
 {
   "name": "portal-layer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A layer for all neisanbynum components that require portals to function.",
   "main": "./dist/index.js",
   "module": "./dist/index.js",  "scripts": {

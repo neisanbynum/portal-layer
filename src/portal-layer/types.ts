@@ -6,5 +6,8 @@ export type PortalLayerProperties = {
 	id?: string
 }
 
+// For Portal Context
+export type PortalContextValues = HTMLDivElement
+
 // For Portal
 export type PortalProperties = React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>
